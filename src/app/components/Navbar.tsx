@@ -59,10 +59,10 @@ const Navbar = (props: Props) => {
                 className="rounded-full object-cover"
               />
               <div className={`absolute bg-white z-[2] rounded-lg shadow-lg ${showProfile?"":"hidden"}`}>
-                <Link href={"/"} className="text-xs p-2">SignIn</Link>
+                <Link href={"/signin"} className="text-xs p-2">SignIn</Link>
               </div>
             </div>
-            <Link href={"/"}>
+            <Link href={"/cart"}>
             <div className="p-2 bg-gray-100 rounded-full">
               <CiShoppingCart size={20} />
             </div>

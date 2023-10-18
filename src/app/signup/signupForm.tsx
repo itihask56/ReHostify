@@ -8,7 +8,7 @@ import axios from "axios";
 
 type Props = {}; 
 
-const SignForm = (props: Props) => {
+const SignupForm = (props: Props) => {
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -28,6 +28,7 @@ const SignForm = (props: Props) => {
       console.log(response)
     })
     .catch((error)=>{
+      alert("error detected")
       console.log(error)
     })
     .finally(()=>{
@@ -84,4 +85,4 @@ const SignForm = (props: Props) => {
   );
 };
 
-export default SignForm;
+export default SignupForm;

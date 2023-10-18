@@ -1,14 +1,12 @@
 import React from 'react'
-import SignupForm from './signupForm'
+import SigninForm from './signinForm'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div>
-       
-        <SignupForm/> 
-    </div>
+     <SigninForm/> 
+    
   )
 }
 
